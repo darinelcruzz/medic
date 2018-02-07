@@ -12,10 +12,6 @@
     	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
     	<script src="{{ asset('medic/js/modernizr.js') }}"></script>
-    	<!--[if lt IE 9]>
-          <script src="js/html5shiv.js"></script>
-          <script src="js/respond.min.js"></script>
-        <![endif]-->
 
     </head>
 
@@ -25,7 +21,7 @@
     			<div class="row">
     				<div class="col-xs-5 header-logo">
     					<br>
-    					<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive logo"></a>
+    					<a href="index.html"><img src="{{ asset('medic/img/logo.png') }}" alt="" class="img-responsive logo"></a>
     				</div>
 
     				<div class="col-md-7">
@@ -69,9 +65,9 @@
     			            <div class="item active">
     			            	<img src="{{ asset('medic/img/slide-one.jpg') }}" alt="">
     			                <div class="carousel-caption">
-    		               			<h1>providing</h1>
-    		               			<p>highquality service for men &amp; women</p>
-    		               			<button>learn more</button>
+    		               			<h1>Otorgando</h1>
+    		               			<p>Servicio de gran calidad para hombres y mujeres</p>
+    		               			<button>leer más</button>
     			                </div>
     			            </div>
     			            <div class="item">
@@ -79,7 +75,7 @@
     			                <div class="carousel-caption">
     		               			<h1>providing</h1>
     		               			<p>highquality service for men &amp; women</p>
-    		               			<button>learn more</button>
+    		               			<button>leer más</button>
     			                </div>
     			            </div>
     			            <div class="item">
@@ -87,7 +83,7 @@
     			                <div class="carousel-caption">
     		               			<h1>providing</h1>
     		               			<p>highquality service for men &amp; women</p>
-    		               			<button>learn more</button>
+    		               			<button>leer más</button>
     			                </div>
     			            </div>
     			            <div class="item">
@@ -95,7 +91,7 @@
     			                <div class="carousel-caption">
     		               			<h1>providing</h1>
     		               			<p>highquality service for men &amp; women</p>
-    		               			<button>learn more</button>
+    		               			<button>leer más</button>
     			                </div>
     			            </div>
     			        </div>
@@ -126,9 +122,9 @@
     						</div>
     						<div class="about-details">
     							<div class="pentagon-text">
-    								<h1>C</h1>
+    								<h1>N</h1>
     							</div>
-    							<h3>Children’s specialist</h3>
+    							<h3>Niños</h3>
     							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
     						</div>
     					</div>
@@ -140,10 +136,10 @@
     						</div>
     						<div class="about-details">
     							<div class="pentagon-text">
-    								<h1>W</h1>
+    								<h1>M</h1>
     							</div>
 
-    							<h3>Children’s specialist</h3>
+    							<h3>Mujeres</h3>
     							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
     						</div>
     					</div>
@@ -155,9 +151,9 @@
     						</div>
     						<div class="about-details">
     							<div class="pentagon-text">
-    								<h1>M</h1>
+    								<h1>H</h1>
     							</div>
-    							<h3>Children’s specialist</h3>
+    							<h3>Hombres</h3>
     							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
     						</div>
     					</div>
@@ -180,7 +176,7 @@
     								<img class="heart img-responsive" src="{{ asset('medic/img/service1.png') }}" alt="">
     							</div>
     						</div>
-    						<h3>Heart problem</h3>
+    						<h3>Cardiología</h3>
     					</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
@@ -190,7 +186,7 @@
     								<img class="brain img-responsive" src="{{ asset('medic/img/service2.png') }}" alt="">
     							</div>
     						</div>
-    						<h3>brain problem</h3>
+    						<h3>Neurología</h3>
     					</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
@@ -200,7 +196,7 @@
     								<img class="knee img-responsive" src="{{ asset('medic/img/service3.png') }}" alt="">
     							</div>
     						</div>
-    						<h3>knee problem</h3>
+    						<h3>Urgencias</h3>
     					</div>
     				</div>
     				<div class="col-md-3 col-sm-6">
@@ -210,7 +206,7 @@
     								<img class="bone img-responsive" src="{{ asset('medic/img/service4.png') }}" alt="">
     							</div>
     						</div>
-    						<h3>human bones problem</h3>
+    						<h3>Osteología</h3>
     					</div>
     				</div>
     			</div>
@@ -305,27 +301,26 @@
     			<div class="row">
     				<div class="contact-caption clearfix">
     					<div class="contact-heading text-center">
-    						<h2>contact us</h2>
+    						<h2>contactanos</h2>
     					</div>
     					<div class="col-md-5 contact-info text-left">
-    						<h3>contact information</h3>
+    						<h3>Informacion</h3>
     						<div class="info-detail">
-    							<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
-    							<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , London, UK, CP 123</li></ul>
-    							<ul><li><i class="fa fa-phone"></i><span>Phone:</span> (032) 987-1235</li></ul>
-    							<ul><li><i class="fa fa-fax"></i><span>Fax:</span> (123) 984-1234</li></ul>
+    							<ul><li><i class="fa fa-calendar"></i><span>Lunes - Viernes:</span> 9:30 AM a 6:30 PM</li></ul>
+    							<ul><li><i class="fa fa-map-marker"></i><span>Dirección:</span> Calle 2a Ote Sur # 235</li></ul>
+    							<ul><li><i class="fa fa-phone"></i><span>Teléfono:</span> (961) 612 4456</li></ul>
     							<ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@doctor.com</li></ul>
     						</div>
     					</div>
     					<div class="col-md-6 col-md-offset-1 contact-form">
-    						<h3>leave us a message</h3>
+    						<h3>dejanos un mensaje</h3>
 
     						<form class="form">
-    							<input class="name" type="text" placeholder="Name">
-    							<input class="email" type="email" placeholder="Email">
-    							<input class="phone" type="text" placeholder="Phone No:">
-    							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-    							<input class="submit-btn" type="submit" value="SUBMIT">
+    							<input class="name" type="text" placeholder="Nombre">
+    							<input class="email" type="email" placeholder="Correo">
+    							<input class="phone" type="text" placeholder="Teléfono">
+    							<textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+    							<input class="submit-btn" type="submit" value="ENVIAR">
     						</form>
     					</div>
     				</div>
