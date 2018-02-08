@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('public.index');
 });
+
+Route::get('intranet', function ()
+{
+    return view('auth.index');
+})->name('home');
