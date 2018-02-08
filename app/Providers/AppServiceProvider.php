@@ -13,7 +13,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->publishes([
+            base_path() . '\vendor\almasaeed2010\adminlte\bower_components' => public_path('adminlte/bower_components'),
+            base_path() . '\vendor\almasaeed2010\adminlte\dist' => public_path('adminlte/dist'),
+            base_path() . '\vendor\almasaeed2010\adminlte\plugins' => public_path('adminlte/plugins'),
+        ], 'adminlte');
     }
 
     /**
