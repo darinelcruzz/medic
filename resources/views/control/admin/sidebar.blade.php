@@ -7,7 +7,7 @@
     <ul class="sidebar-menu" data-widget="tree">
       <li class="header">MENÚ</li>
 
-      @each('auth.admin.items', trans('menus/one'), 'item')
+      @each('control.admin.items', trans('menus/one'), 'item')
 
     </ul>
     <!-- /.sidebar-menu -->

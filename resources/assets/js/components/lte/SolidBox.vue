@@ -8,7 +8,6 @@
                 </button>
             </div>
         </div>
-
         <div class="box-body">
             <slot></slot>
         </div>
